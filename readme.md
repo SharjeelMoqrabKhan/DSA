@@ -1,9 +1,8 @@
-# Bitwise Operator
+# Implementing the DSA 
 
-1. & Bitwise AND -> ADDING A=0001 (1) B=0010 (B) A&B 0000
-2. | Bitwise OR -> MULTIPLICATION A|B 0011 3
-3. ^ Bitwise XOR -> 3^5 0011^0101 0110 6
-4. ~ Bitwise NOR -> inverse all bit 5=00000101 ~ 11111010 -6
-5. << Left Shift -> shift left and fils empty space with 0
-   eg 5<<1 :- 5=0101<<1 1010=10 aslo used for multiplicaton a=3 b=a<<1 only wokrs multiply by 2
-6. >> Right Shift -> right left and fils empty space with 0 eg 12>>2 100>>2 0011=3 also for divided by like a=5 b=a>>1 only wokrs divide by 2
+Data Structures and Algorithms are often considered to be the root or the foundation of computer science. With advancements in the computer science field, more and more data is getting stored and processed. These huge data can slow down the processing time of the systems. This is where DSA helps by improving the processing power of the systems due to the effective utilization of the stored data. DSA also helps in tasks like data search, which plays an important role in any application. The DSA typically shifts the focus of programming from the syntax to the approach. If you notice, most of the computer science books in any curriculum will have a chapter or a course on DSA. The learners can use the concepts of DSA in any programming language of their choice and also learn how to store and manipulate the data in it to get the desired outcome
+
+Will try to implement these topics 
+
+![DSA](https://user-images.githubusercontent.com/38564835/121313517-e9e1f180-c91f-11eb-8a0c-842a8c3effe7.JPG)
+

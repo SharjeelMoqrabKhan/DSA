@@ -17,3 +17,14 @@ As we know bitwise AND Operation of the Number by 1 will be 1, If it is odd beca
 
 # Using Bitwise XOR No any third variable
 1. The bitwise XOR operator can be used to swap two variables. The XOR of two numbers x and y returns a number that has all the bits as 1 wherever bits of x and y differ. For example, XOR of 10 (In Binary 1010) and 5 (In Binary 0101) is 1111 and XOR of 7 (0111) and 5 (0101) is (0010). 
+
+# Check whether K-th bit is set or not 
+
+ * number = 12 = 1100
+ * bit = 2
+ * number & (1 << i > 0)
+ * 12      1100
+ * 1<<bit  0000   (firstBit leftshit ith-time)
+ * (false) not set
+ * (true) set
+

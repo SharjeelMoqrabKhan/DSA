@@ -1,5 +1,5 @@
 function find(num, i) {
-  let bitStatus = num & (1 << i > 0);
+  let bitStatus = num & (1 << (i - 1));
   if (bitStatus) {
     console.log("set");
   } else {
@@ -7,5 +7,5 @@ function find(num, i) {
   }
 }
 
-find(12, 2);
-find(121, 2);
+find(14, 4);
+find(14, 1);

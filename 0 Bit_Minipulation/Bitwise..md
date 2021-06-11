@@ -29,4 +29,16 @@ As we know bitwise AND Operation of the Number by 1 will be 1, If it is odd beca
 *   1000
 *   1>0 set 
 
+# Set the K-th bit of a given number
+* Input : n = 10, k = 2
+* n = n | (1 << k);
+* Output : 14
+* (10)10 = (1010)2
+* Now, set the 2nd bit from right.
+ (14)10 = (1110)2
+ 2nd bit has been set.
+
+* Input : n = 15, k = 3
+  Output : 15
+  3rd bit of 15 is already set.
 

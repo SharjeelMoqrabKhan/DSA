@@ -42,3 +42,16 @@ As we know bitwise AND Operation of the Number by 1 will be 1, If it is odd beca
   Output : 15
   3rd bit of 15 is already set.
 
+# Program to clear K-th bit of a number N
+* Given a number N, the task is to clear the K-th bit of this number N. If K-th bit is 1, then clear it to 0 and if it is 0 then leave it unchanged.
+* Input: N = 5, K = 1
+  Output: 4
+  5 is represented as 101 in binary
+  and has its first bit 1, so clearing
+  it will result in 100 i.e. 4.
+
+* Input: N = 5, K = 2
+  Output: 5
+  5 is represented as 101 in binary
+  and has its second bit is already 0,
+  so clearing it will result in 101 i.e. 5.

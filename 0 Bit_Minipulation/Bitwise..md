@@ -82,3 +82,18 @@ As we know bitwise AND Operation of the Number by 1 will be 1, If it is odd beca
         count ++
         n=&n-1 used for LSB set bit to zero
       return count
+
+
+# Find the non one repating element in array while other repating twice
+* let arr = [5, 4, 1, 4, 7, 5, 1];
+* let differentElement = 0;
+*   for (let i = 0; i < arr.length; i++) {
+    differentElement = (differentElement ^ arr[i]);
+  }
+* return differentElment // 7
+
+As we know that if two numbers are same their XOR Zero 101^101=000
+0 XOR Number = Number eg  0^101=101
+
+so differentElment=5^4^1^4^7^5^1
+same numbers become zero remaing get non zero number

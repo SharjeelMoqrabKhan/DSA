@@ -97,3 +97,18 @@ As we know that if two numbers are same their XOR Zero 101^101=000
 
 so differentElment=5^4^1^4^7^5^1
 same numbers become zero remaing get non zero number
+
+# Find the two non-repeating elements in an array of repeating elements/ Unique Numbers 2
+* Let x and y be the non-repeating elements we are looking for and arr[] be the input array. First, calculate the XOR of all the array elements. 
+* xor = arr[0]^arr[1]^arr[2].....arr[n-1]
+* Let us see an example.
+   arr[] = {2, 4, 7, 9, 2, 4}
+1) Get the XOR of all the elements.
+     xor = 2^4^7^9^2^4 = 14 (1110)
+2) Get a number which has only one set bit of the xor.   
+   Since we can easily get the rightmost set bit, let us use it.
+     set_bit_no = xor & ~(xor-1) = (1110) & ~(1101) = 0010
+   Now set_bit_no will have only set as rightmost set bit of xor.
+3) Now divide the elements in two sets and do xor of         
+   elements in each set and we get the non-repeating 
+   elements 7 and 9. Please see the implementation for this step.

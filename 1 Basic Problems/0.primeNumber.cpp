@@ -4,19 +4,20 @@ using namespace std;
 
 int main()
 {
-    int number;
-    cin >> number;
-    bool flag = 0;
+    int number=11;
+    bool flag = true;
     for (int i = 2; i < sqrt(number); i++)
     {
         if (number %i == 0)
         {
             cout << "Non Prime";
+            flag = false;
             break;
-             flag = 1;
         }
+
     }
-    if (flag == 0)
+
+    if (flag == true)
     {
         cout << "Prime";
     }
